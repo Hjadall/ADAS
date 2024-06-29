@@ -4,8 +4,8 @@
 This repository contains implementations of control systems for autonomous vehicles, focusing on two key aspects: Lane Changing Control and Adaptive Cruise Control (ACC). These systems utilize PID controllers to ensure smooth and safe vehicle operation.
 
 ## Repository Structure
-- `lane-changing-control/`: Contains the Lane Changing Control project.
-- `acc-control/`: Contains the Adaptive Cruise Control project.
+- `Lateral_Controller/`: Contains the Lane Changing Control project.
+- `ACC_PID/`: Contains the Adaptive Cruise Control project.
 
 ## Projects Overview
 
