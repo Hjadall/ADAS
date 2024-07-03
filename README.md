@@ -10,27 +10,26 @@ This repository contains implementations of control systems for autonomous vehic
 ## Projects Overview
 
 ### Lane Changing Control
-This project implements a lane-changing control system for autonomous vehicles using PID controllers to manage the lateral position and heading angle. The system ensures smooth and stable lane changes, even at higher speeds. It uses the bicycle model for vehicle dynamics.
+This project implements a lane-changing control system for autonomous vehicles using PID controllers to manage the lateral position and heading angle. The system ensures smooth and stable lane changes, even at higher speeds, using the bicycle model for vehicle dynamics.
 
 #### Key Features
 - PID control for lateral position and heading angle.
-- Use of the bicycle model for vehicle dynamics.
-- Simulation of lane changing.
-- Visualization of vehicle trajectory, steering angle, and heading angle.
+- Bicycle model for vehicle dynamics.
+- Simulation and visualization of lane changing behavior.
 
-  ### Adaptive Cruise Control (ACC)
-This project implements an Adaptive Cruise Control system for autonomous vehicles using PID controllers to manage the vehicle's speed and maintain a safe distance from the vehicle ahead. The system adapts to changing traffic conditions to ensure smooth and safe driving.
+### Adaptive Cruise Control (ACC)
+This project implements an Adaptive Cruise Control system for autonomous vehicles using PID controllers to manage vehicle speed and maintain a safe distance from the vehicle ahead. The system adapts to changing traffic conditions to ensure smooth and safe driving.
 
 #### Key Features
 - PID control for vehicle speed and distance management.
-- Simulation of adaptive cruise control in various traffic scenarios.
-- Visualization of vehicle speed, following distance, and acceleration.
+- Simulation and visualization of ACC in various traffic scenarios.
 
-#### Usage
-Navigate to the `Lateral_Controller` or `ACC_PID` directory and run the simulation script
-```bash
-#### Usage
-Navigate to the `ACC_PID` directory and run the simulation script:
+### Usage
+To run simulations:
 ```bash
 cd ACC_PID
 python acc_control.py
+exit
+
+### Future Work
+For future iterations, consider implementing a Model Predictive Control (MPC) system. MPC offers advantages in handling nonlinear dynamics and constraints, potentially improving control accuracy and response times in complex driving scenarios.
