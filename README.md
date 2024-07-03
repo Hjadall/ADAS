@@ -24,6 +24,10 @@ This project implements an Adaptive Cruise Control system for autonomous vehicle
 - PID control for vehicle speed and distance management.
 - Simulation and visualization of ACC in various traffic scenarios.
 
+### Future Work
+For future iterations, consider implementing a Model Predictive Control (MPC) system. MPC offers advantages in handling nonlinear dynamics and constraints, potentially improving control accuracy and response times in complex driving scenarios.
+
+
 ### Usage
 To run simulations:
 ```bash
