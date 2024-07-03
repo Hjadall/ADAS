@@ -35,5 +35,3 @@ cd ACC_PID
 python acc_control.py
 exit
 
-### Future Work
-For future iterations, consider implementing a Model Predictive Control (MPC) system. MPC offers advantages in handling nonlinear dynamics and constraints, potentially improving control accuracy and response times in complex driving scenarios.
