@@ -51,15 +51,6 @@ where:
 ### Trajectory Following
 The vehicle is driven in a figure-8 trajectory using speed \( v \) and steering angle rate \( \omega \) inputs. The speed is maintained constant, and the steering angle is adjusted to follow the desired path.
 
-## Results
-The following plots show the vehicle path, steering angle, and heading angle during the simulation:
-
-![Vehicle Path](figures/vehicle_path.png)
-![Steering Angle](figures/steering_angle.png)
-![Heading Angle](figures/heading_angle.png)
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## Acknowledgments
 This is an Assignment that have been given in the Self-Driving car specialization on Coursera
