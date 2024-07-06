@@ -59,7 +59,7 @@ delta = np.arctan(model.L/radius)
 
 v_data[:]=  2*(2*np.pi*8/30)
 
-w = v_data[0]* np.tan(model.delta)/model.L
+w = v_data[0]* np.tan(delta)/model.L
 
 print(w)
 
@@ -69,22 +69,22 @@ for i in range (t_data.shape[0]):
     x_data[i] = model.xc
     y_data[i] = model.yc
     
-    if i <= t_data.shape[0]/8:
+    if i <= (1/8)*t_data.shape[0]:
         
         if model.delta < delta:
-            model.position_update(v_data[i], model.w_max)
+            model.position_update(v_data[i], w)
             
         else:
             model.position_update(v_data[i], 0)
         
-    elif i<= 5* t_data.shape[0]/8:
+    elif i<= (5/8)* t_data.shape[0]:
         if model.delta > - delta:
-            model.position_update(v_data[i], -model.w_max)
+            model.position_update(v_data[i], -w)
         else:
             model.position_update(v_data[i], 0)
     else:
         if model.delta < delta:
-            model.position_update(v_data[i], model.w_max)
+            model.position_update(v_data[i], w)
         else:
             model.position_update(v_data[i], 0)
         
