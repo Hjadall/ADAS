@@ -5,7 +5,7 @@ This repository contains implementations of control systems for autonomous vehic
 
 ## Repository Structure
 - `Lateral_Controller/`: Contains the Lane Changing Control project.
-- `ACC_PID/`: Contains the Adaptive Cruise Control project.
+- `ACC_Longitudinal_Controller/`: Contains the Adaptive Cruise Control project.
 
 ## Projects Overview
 
